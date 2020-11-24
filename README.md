@@ -1,16 +1,20 @@
 # The Accuracy and Transparency of EBM and Random Forests
 
-All of the results in our project report are calculated and presented in this notebook. 
+## Notebooks
+All of the results in our project report are calculated and presented in the notebooks: Correlation_Analysis.ipynb and Machine_Learning_Project_Group_40.ipynb. 
+* Correlation_Analysis: Contains a correlation analysis to find out which features have the highest correlation.
+* Machine_Learning_Project_Group_40: Presents the accuracy and transparency of the EBM and random forest models.
+
 ## Installation
 
-By using an iPython notebook most of the necessary installation are built in. The exception is interpret, but it is added by in the notebook us through:
+By using an iPython notebook most of the necessary installation are built in. The exception is interpret, which is used in Machine_Learning_Project_Group_40.ipynb, but it is added in the notebook through the following code:
 
 ```bash
 !pip install interpret
 ```
 ## Structure
 
-All sections of code is marked with one of the following: 'General', 'EBM' or 'Random forest'. Below is a brief overview some of the elements included in each section.
+All sections of code in Machine_Learning_Project_Group_40.ipynb is marked with one of the following: 'General', 'EBM' or 'Random forest'. Below is a brief overview some of the elements included in each section.
 * General
 	* Imports and installations
 	* Retrieval and splittingof data
@@ -28,4 +32,4 @@ All sections of code is marked with one of the following: 'General', 'EBM' or 'R
 
 ## Usage
 
-Run all to get all results regarding accuracy and transparency. If they are run separately, all 'General' code should be run before 'EBM' and 'Random forest', since they are dependent on code from 'General'.
+Run all to get all results in both notebooks. If the random forest and EBM model are run separately, all 'General' code should be run before 'EBM' and 'Random forest' code, since they are dependent on code from 'General'.
