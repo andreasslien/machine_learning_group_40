@@ -32,4 +32,4 @@ All sections of code in Machine_Learning_Project_Group_40.ipynb is marked with o
 
 ## Usage
 
-Run all to get all results in both notebooks. If the random forest and EBM model are run separately, all 'General' code should be run before 'EBM' and 'Random forest' code, since they are dependent on code from 'General'.
+Run all to get all results in both notebooks. If the random forest and EBM model are run separately in Machine_Learning_Project_Group_40.ipynb, all 'General' code should be run before 'EBM' and 'Random forest' code, since they are dependent on code from 'General'.
